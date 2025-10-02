@@ -1,6 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 
 # --- Configuration and Setup ---
@@ -202,3 +203,4 @@ with st.expander("Click to view: Technical Deep Dive (Graph 6: Beat Grid Drift)"
     st.pyplot(fig6)
 
 st.write("This structure provides a clear, interactive, and visually rich interface suitable for explaining the core components of your music transition model.")
+
